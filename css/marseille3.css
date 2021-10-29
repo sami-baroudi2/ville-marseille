@@ -1,0 +1,67 @@
+* {
+    line-height: 150%;
+}
+main {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.banniere-rando {
+    width: 100%;
+    height:auto;
+} 
+.rando-int {
+  margin: auto;
+  max-width: 60%;
+  height:auto;
+  margin-top: 5%;
+}
+h1 {
+    font-size: 280%;
+    opacity: 0.8;
+}
+.bloc1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 7%;
+}
+.bloc1 div {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.img-rando {
+    display: inline-block;
+    width: 180%;
+    height: auto;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+h2 {
+  font-size: 200%;
+  opacity:0.8;
+}
+.bloc2 {
+    display: flex;
+    margin-top: 8%;
+}
+.img2-rando {
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+.lien {
+    border-bottom: black;
+    font-weight: bold;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color:black;
+}
+.img2-rando:hover, .img-rando:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
+    box-shadow: 10px 10px 20px #065295;
+    
+
+}
