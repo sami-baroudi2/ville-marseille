@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8 sans bom"/>
+        <title>Formulaire contacte</title>
+        <link href="Marseille7.css" rel="stylesheet">
+    </head>
+    <header>
+        <img src="logo.png" alt="logo-marseille" style="width:120px; height:100px;" >
+        <nav>
+            <ul>
+              <li class="deroulant"><a href="#">Navigation &ensp;</a>
+                <ul class="sous">
+                  <li><a href="#">Histoire</a></li>
+                  <li><a href="#">Musée</a></li>
+                  <li><a href="#">Parcs</a></li>
+                  <li><a href="#">Randonnées</a></li>
+                  <li><a href="#">Plages</a></li>
+                </ul>
+              </li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+
+
+    <body>
+         <div class=traintitre>
+            <img class="petittrain"src="petittrain.jpg">
+
+            <h1>S'inscrire à un groupe avec un guide</h1>
+
+        </div>
+
+        
+<div class="presentation">
+        
+            <div class="photojaqueline">
+                <img class="jaqueline" src="https://i.unimedias.fr/2007/06/14/Connaissez-vous-Dora-l-exploratrice.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=675&w=1200">
+           
+                <h2>Jaqueline La guide</h2>
+
+            </div>
+
+        <p class="guide">Un guide qui saura vous faire visiter chaque endroit en vous expliquant l'histoire.<br/>
+            Avec une pointe d'humour, il saura vous divertir, tout en vous expliquant l'histoire.
+            <br/>
+           <strong>Langues:</strong>
+        </p>
+
+     <div class="langueimg">
+        <img class="anglais" src="anglais drapeau.png">
+        <img class="algerie" src="drapeau france.jpg">
+        <img class="francais" src="drapeau-d-algerie.jpg">
+        </div>
+ </div>
+
+<div class="tableplan">
+
+<table>
+    <caption>Liste des sessions</caption>
+
+    <tr>
+        <th>Horaires</th>
+        <th>Tarifs</th>
+    </tr>
+    <tr>
+        <td>Matin</td>
+        <td>23$ Par personne</td>
+    </tr>
+    <tr>
+        <td>Aprés-Midi</td>
+        <td>25$ Par personne</td>
+    </tr>
+    <tr>
+        <td>Journée compléte</td>
+        <td>40$ Par personne</td>
+    </tr>
+    <tr>
+        <td>Groupe +5 personnes journée compléte </td>
+        <td>35$ Par personne</td>
+    </tr>
+
+</table>
+
+<img class="plan" src="plan petit train.png">
+
+</div>
+
+ <div class="billettitre">
+
+    <h3>Reservez un billet</h3>
+
+    <img class="billet" src="tiquet.jpg">
+</div>
+
+
+<div class="formulaire">
+
+    <form method="post" action="traitement.php">
+        <p>
+    <label>
+        <br/><br/>
+*Nom Prénom
+    </label for="psoeudo">
+
+    <input type="text" name="psoeudo" id="psoeudo"/>
+<br/></br>
+
+    <label for="pass">
+*Mot de passe
+    </label>
+<input type="passeword" name="pass" id="pass"/>
+<br/><br/></br>
+
+Quel type de billet souhaitez vous reservez ?
+</br></br></br>
+
+    <input type="checkbox" name="Matin" id="Matin">
+    <label for="Matin">Matin</label>
+</br></br>
+
+    <input type="checkbox" name="Aprés-Midi" id="Aprés-Midi">
+    <label for="Aprés-Midi">Aprés-Midi </label>
+</br></br>
+
+    <input type="checkbox" name="Journé" id="Journé">
+    <label for="Journé">Journé compléte</label>
+</br></br></br>
+
+A quelle date souhaitez reservez ce billet ?
+</br></br></br>
+
+    <input type="date" name= "ladate" id="ladate">
+    <br/></br></br>
+    </p>
+    </form>
+    </div> 
+<br/>
+        <img class="securite" src="logo-paiement-securise.png">
+
+    </body>
+
+    <footer>
+
+        <img class="logo" src="logo.png">
+
+        <div class="contacter">
+            <li>Nous écrire:<br/> <span>Letourisme@marseille.fr</span></li>
+            <br/><br/>
+            <li>Nous appeler:<br/><span>04 91 18 12 80 </span></li>
+                <span>*0,15c par minute depuis un poste fixe*</span>
+            
+        </div>
+
+        <div class="gps">
+            <li>Comment venir</li>
+            <img class="marseillegps" src="marseillegps.png.crdownload">
+        </div>
+
+        <div class="reseaux">
+            <li>Suivez-nous !</li>
+            <img class="twitter" src="twitter.jpg">
+            <img class="instagram" src="instagram.jpg">
+            <img class="facebook" src="facebook.png">
+        </div>
+    </footer>
+
+</html>
