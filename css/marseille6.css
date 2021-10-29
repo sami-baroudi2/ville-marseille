@@ -1,0 +1,263 @@
+* {
+    line-height: 150%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    background-color: #0373b8;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0373b8;
+    position: sticky;
+    top: 0px;
+    color: white;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 1.89%;
+
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    color:blanchedalmond;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color:deepskyblue;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+        /* Conteneur principal */
+
+main{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.overlay-image {
+    position: relative;
+    width: 100%;
+   }
+   
+  
+   .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: 550px;
+    opacity: 70%;
+   }
+   
+   .overlay-image .text {
+    color: #fff;
+    font-size: 70px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    
+   }
+        /* Fin conteneur */
+
+
+.article{
+    background-attachment:scroll;
+    display: flex;
+    flex-direction: row;
+    font-size: 125%;
+
+}
+
+h3{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 180%;
+}
+
+
+.img {
+    height: 100%;
+    width:100%;
+
+  }
+#img-parc {
+     margin-top: 5%;
+     
+}
+
+td {
+    overflow: hidden;
+    border-radius: 5%;
+    width:50%;
+    margin: 2%;
+    margin-bottom: 5%;
+    margin-left:5%;
+}
+
+tr {
+      display: flex;
+  }
+
+table {
+    float: left;
+  }
+
+.bloc2 {
+    display: flex;
+    margin-top: 6%;
+    font-size: 125%;
+}
+.img2-parc {
+    display: inline-block;
+    margin-right: 2%;
+    border-radius: 5%;
+    height: auto;
+    width: 40%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.sect1{
+    display: flex;
+}
+
+section {
+    margin-top:5%;
+}
+
+footer
+{
+    background-color: #4084DE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding-top: 5%;
+    color: white;
+}
+.contacter
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-right: solid #0B428B;
+    margin-bottom: 10%;
+    width: 20%;
+}
+span
+{
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+.gps
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-right: solid #0B428B;
+    margin-bottom: 10%;
+    width: 20%;
+    margin-right: 0%;
+    height: 20%;
+
+}
+
+.reseaux
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10%;
+    width: 15%;
+}
+
+li
+{
+    margin-bottom:30px;
+}
+
+.logo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    opacity: 30%;
+    z-index: auto;
+    margin:0px;
+}
+
+.facebook, .instagram ,.twitter
+{
+    height: 60px;
+    width: 50px;
+    border-radius: 90%;
+    margin-right: 10px;
+}
+.marseillegps
+{
+    height: 90%;
+    width: 90%;
+    border-radius: 10%;
+}
