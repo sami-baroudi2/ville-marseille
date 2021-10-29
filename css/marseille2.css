@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+header
+
+{
+    display: flex;
+    background-color: #0373b8;
+}
+
+nav{
+
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0373b8;
+    position: sticky;
+    top: 0px;
+    color: white;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 1.89%;
+
+    
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    color:blanchedalmond;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color:deepskyblue;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+
+body
+{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+   
+}
+
+/*Debut haut de page photo plage */
+h1
+{
+    border:solid white;
+    background-color: white;
+    text-align: left;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    border-radius: 30px;
+}
+
+.pre
+{
+    margin-right: 45%;
+    margin-top: 4%;
+    position: absolute;
+    z-index: 1;
+}
+
+.deu
+{
+    margin-right: 60%;
+    margin-top: 11%;
+    position: absolute;
+    z-index: 1;
+}
+.troi
+{
+    border-color: black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin-top: 19%;
+    position: absolute;
+    z-index: 1;
+}
+
+.baniereplage
+{
+    height: 400px;
+    width:100%;
+    border-bottom: solid black;
+    box-shadow: 0px 50px 40px #E1E186;
+    border-top: solid black;
+    position: relative;
+}
+
+h2
+{
+    color: white;
+    text-align: center;
+    border: black;
+    background-color: black;
+    margin-top: 300px;
+}
+
+/*Fin de haut de page*/
+
+/*introduction */
+
+.presentation 
+{
+    margin-top: 7%;
+    height: 15%;
+    background-color: #E1E186;
+    box-shadow: 1px 3px 5px yellow;
+    border: solid #E1E186;
+    border-radius: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.texte1
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 27%;
+    font-size: 30px;
+}
+/*Fin intro*/
+
+/* Debut Parti Pointe rouge*/
+
+.textepointerouge
+ {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h3
+{
+    margin-top: 30%;
+    color:black;
+    text-shadow: 0px 1px 2px black;
+}
+.textepointe
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+
+
+
+.pointerouge 
+{ 
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    border-radius: 70px;
+}
+
+/* Fin Parti Pointe rouge*/
+
+
+/* Debut Parti Sormiou*/
+
+.textesormiou
+ {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.textesormiou
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+
+.sormiou 
+{
+    width: 800px;
+    height: 500px;
+    padding: 60px;
+    border-radius: 70px;
+}
+
+/* Fin Parti Sormiou*/
+
+/* Debut Parti prophete*/
+
+.texteprophete
+ {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.texteprophete
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+
+.prophete 
+{
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    border-radius: 60px;
+}
+
+/* Fin Parti prophete*/
+
+/* Debut Parti Catalan*/
+
+.textecatalan
+ {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.textecatalan
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+
+.catalan
+{
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    border-radius: 70px;
+}
+
+/* Fin Parti Catalan*/
+
+/* Debut Parti Prado*/
+
+.texteprado
+ {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.texteprado
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+
+.prado
+{
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    border-radius: 70px;
+}
+
+/* Fin Parti prado*/
+
+/*Début Footer */
+
+footer
+{
+    background-color: #4084DE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding-top: 5%;
+    color: white;
+}
+.contacter
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-right: solid #0B428B;
+    margin-bottom: 10%;
+    width: 20%;
+}
+span
+{
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+.gps
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-right: solid #0B428B;
+    margin-bottom: 10%;
+    width: 20%;
+    margin-right: 0%;
+    height: 20%;
+
+}
+
+.reseaux
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10%;
+    width: 15%;
+}
+
+li
+{
+    margin-bottom:30px;
+}
+
+.logo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    opacity: 30%;
+    z-index: auto;
+    margin:0px;
+}
+
+.facebook, .instagram ,.twitter
+{
+    height: 60px;
+    width: 50px;
+    border-radius: 90%;
+    margin-right: 10px;
+}
+.marseillegps
+{
+    height: 90%;
+    width: 90%;
+    border-radius: 10%;
+}
+
+/*Fin Footer */
