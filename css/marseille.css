@@ -52,7 +52,7 @@ nav a:hover{
     background-color:deepskyblue;
     position: absolute;
     width: 100%;
-    z-index: 3;
+    z-index: 99;
 }
 nav > ul li:hover .sous{
     display: flex;
