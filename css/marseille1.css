@@ -11,11 +11,8 @@ border: solid black;
 font-size: 40px;
 text-shadow:2px 2px 4px black;
 background-color: #1760B1;
-width:700px;
-position: absolute;
-display:flex;
-top: 57%;
-right: 22%;
+width:100%;
+text-align: center;
 }
 
 

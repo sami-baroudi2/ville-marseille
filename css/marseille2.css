@@ -22,7 +22,7 @@ h1
     margin-right: 45%;
     margin-top: 4%;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
 }
 
 .deu
@@ -30,7 +30,7 @@ h1
     margin-right: 60%;
     margin-top: 11%;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
 }
 .troi
 {
@@ -40,7 +40,11 @@ h1
     font-size: 20px;
     margin-top: 19%;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
+}
+.traintitre {
+    position: relative;
+    z-index: 3;
 }
 
 .baniereplage

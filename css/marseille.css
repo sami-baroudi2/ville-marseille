@@ -5,6 +5,8 @@
 header {
     display: flex;
     background-color: #0373b8;
+    position: relative;
+    z-index: 99;
 }
 nav{
     width: 100%;
